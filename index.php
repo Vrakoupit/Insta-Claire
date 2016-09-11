@@ -1,25 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta name="viewport" content="width=device-width,user-scalable=no">
-    <title>Instagram Portfolio</title>
-    <link href='http://fonts.googleapis.com/css?family=Lato:400,700|Kaushan+Script|Montserrat' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script type="text/javascript" src="js/modernizr.js"></script>
-</head>
-<body>
+<?php include 'header.php' ?>
     <header>
- 
     </header>
-    <section class="instagram-wrap">
- 
-    </section>
-    <footer>
- 
-    </footer>
-    <section class="footer-bottom">
- 
-    </section>
- 
-</body>
-</html>
+    <nav id="menu-home">
+            <ul>
+                <li><a href="portfolio.php">Portfolio</a></li>
+                <li><a href="news.php">News</a></li>
+                <li><a href="index.php">LOGO</a></li>
+                <li><a href="about.php">A propos</a></li>
+                <li><a href="contact.php">Contact</a></li>
+            </ul>
+    </nav>
+<?php include 'footer.php' ?>

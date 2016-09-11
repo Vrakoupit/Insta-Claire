@@ -1,0 +1,39 @@
+body {
+    color: #585c65;
+    font-family: "Lato";
+}
+ 
+a:hover {
+	text-decoration: none;
+}
+
+header {
+    max-height: 950px;
+    height: 800px;
+    background-image: url(../img/mountains.jpg);
+    background-size: 100%;
+}
+
+nav#menu-home {
+	margin-top: 40px;
+}
+
+nav#menu-home ul {
+	text-align: center;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+nav#menu-home ul li {
+	display: inline-block;
+}
+
+nav#menu-home ul li a{
+	padding: 15px 40px;
+	margin: 0 20px;
+}
+
+nav#menu-home ul li:nth-child(3) {
+	margin: 0 50px;
+}
