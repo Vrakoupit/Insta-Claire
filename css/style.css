@@ -1,15 +1,15 @@
 body {
     color: #585c65;
     font-family: "Lato";
+    background-color: #fafafa;
 }
  
 a:hover {
 	text-decoration: none;
 }
 
-header {
-    max-height: 950px;
-    height: 800px;
+header#home {
+    height: 850px;
     background-image: url(../img/mountains.jpg);
     background-size: 100%;
 }
@@ -36,4 +36,168 @@ nav#menu-home ul li a{
 
 nav#menu-home ul li:nth-child(3) {
 	margin: 0 50px;
+}
+
+nav.menu-home {
+	background-color: white;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #dbdbdb;
+	margin-bottom: 30px;
+}
+
+nav.menu-home ul {
+	text-align: center;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+nav.menu-home ul li {
+	display: inline-block;
+}
+
+nav.menu-home ul li a{
+	padding: 15px 40px;
+	margin: 0 20px;
+}
+
+nav.sub-menu ul {
+	margin: 50px 0 30px;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: 400;
+}
+
+nav.sub-menu ul li {
+	display: inline-block;
+	margin: 0 20px;
+}
+
+nav.sub-menu ul li a {
+	border: 2px solid #E4E4E4;
+	border-radius: 5px;
+	padding: 10px 10px;
+}
+
+div ul.ul-portfolio {
+	margin: 0 0 30px;
+	padding: 0;
+}
+
+div ul.ul-portfolio li {
+	display: inline-block;
+	margin: 15px 26px;
+	width: 240px;
+	height: 240px;
+	overflow: hidden;
+	vertical-align: top;
+	text-align: center;
+	background-color: rgba(200,200,200, .1);
+	box-shadow: 2px 2px 6px 1px #cfcfcf;
+	transition: all 0.5s ease-in-out 0s;
+}
+
+div ul.ul-portfolio li:hover {
+	transform: scale(1.03);
+}
+
+div ul.ul-portfolio li:nth-child(1) {
+	margin-left: 0;
+}
+
+div ul.ul-portfolio li:nth-child(4) {
+	margin-right: 0;
+}
+
+div ul.ul-portfolio li a {
+
+}
+
+div ul.ul-news {
+	margin: 40px 0 30px;
+	padding: 0;
+}
+
+div ul.ul-news li {
+	display: inline-block;
+	margin: 15px 26px;
+	width: 240px;
+	height: 240px;
+	overflow: hidden;
+	vertical-align: top;
+	text-align: center;
+	background-color: rgba(200,200,200, .1);
+	box-shadow: 2px 2px 6px 1px #cfcfcf;
+	transition: all 0.5s ease-in-out 0s;
+}
+
+div ul.ul-news li:hover {
+	transform: scale(1.02);
+}
+
+div ul.ul-news li:nth-child(1) {
+	margin-left: 0;
+}
+
+div ul.ul-news li:nth-child(4) {
+	margin-right: 0;
+}
+
+div ul.ul-news li a {
+
+}
+
+div.about {
+	margin-top: 90px;
+}
+
+div.about div.about-claire {
+	margin: 30px 0;
+}
+
+div.about div.about-claire span {
+	
+}
+
+div.about div.about-claire span img {
+	height: 200px;
+	width: 200px;
+}
+
+div.info-contact {
+
+}
+
+div.info-contact div#claire-info,
+div.info-contact div#agent-info {
+	padding: 0 80px;
+}
+
+div.info-contact div#claire-info ul li,
+div.info-contact div#agent-info ul li {
+	list-style-type: none;
+	margin-left: -30px;
+}
+
+div.formulaire {
+
+}
+
+div.formulaire label {
+	display: block;
+}
+
+div.formulaire label input[type=text],
+div.formulaire label textarea {
+	display: block;
+}
+
+@media screen and (max-width: 1600px){
+	header#home {
+    height: 650px;
+	}
+	nav#menu-home {
+	margin-top: 50px;
+	}
 }

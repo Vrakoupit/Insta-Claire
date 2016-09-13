@@ -8,3 +8,14 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+	<header>
+		<nav class="menu-home">
+            <ul>
+                <li><a href="portfolio.php">Portfolio</a></li>
+                <li><a href="news.php">News</a></li>
+                <li><a href="index.php">LOGO</a></li>
+                <li><a href="about.php">A propos</a></li>
+                <li><a href="contact.php">Contact</a></li>
+            </ul>
+    </nav>
+	</header>
