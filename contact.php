@@ -9,7 +9,7 @@
 			</ul>
 		</div>
 		<div id="agent-info">
-			<h4>Agent</h4>
+			<h3>Agent</h3>
 			<ul>
 				<li>Eleonore CHARREY</li>
 				<li>13, rue Vivienne</li>

@@ -14,7 +14,7 @@
             <ul>
                 <li><a href="portfolio.php">Portfolio</a></li>
                 <li><a href="news.php">News</a></li>
-                <li><a href="index.php">LOGO</a></li>
+                <a href="index.php"><img src="img/logo.svg" alt=""></a>
                 <li><a href="about.php">A propos</a></li>
                 <li><a href="contact.php">Contact</a></li>
             </ul>
